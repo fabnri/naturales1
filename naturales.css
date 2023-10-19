@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+} /*si sirve*/
+
+
+body {
+    background-color:rgba(149, 82, 56, 0.942);
+    font-family: 'IBM Plex Sans', sans-serif;
+
+} /*si sirve*/
+
+#menu {
+    background-color:chartreuse;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+} /*si sirve*/
+
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    float: right;
+} /*si sirve*/
+
+#menu ul li {
+    display: inline-block;
+} /*si sirve*/
+
+#menu ul li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+} /*si sirve*/
+
+#menu .navegador {
+    max-width: fit-content;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+} /*si sirve*/
+
+#menu .navegador a {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+} /*si sirve*/
+
+#imagen2 {
+    
+    image-rendering: auto;
+    range: auto;
+    background-position:center;
+} /*si sirve*/
+
+#sobremi .container2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px 100px;
+} /*si sirve*/
+
+
+a{
+  color: black;  
+} 
+
+#color1{
+    color:white ;
+}
+
+#color2{
+    color:black ;
+}
+#color3{
+    color:grey ;
+}
+#color4{
+    color:orange ;
+}
+#color5{
+    color:yellow ;
+}
+#color6{
+    color:red ;
+}
+#color7{
+    color:blue ;
+}
